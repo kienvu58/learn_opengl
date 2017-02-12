@@ -8,6 +8,7 @@ public:
     ~Shader();
 
     void UseProgram();
+    GLuint GetProgram();
 private:
     GLuint m_program;
 };
